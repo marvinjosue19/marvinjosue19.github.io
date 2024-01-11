@@ -1,0 +1,155 @@
+/*index*/
+@media screen and (max-width: 1060px){
+    .posts{
+        padding: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 800px){
+
+    /*Página de Perfil*/
+    .profile{
+        padding: 20px;
+    }
+
+    .profile-img img{
+        width: 200px;
+        display: grid;
+        align-items: center;
+        margin-right: 50px;
+        
+       }
+
+    .projects-container{
+        padding: 20px;
+    }
+    .project{
+        max-width: 45%;
+        text-align: center;
+    }
+    .profile-info {
+        text-align: justify;
+    }
+    .section-contact{
+        padding-left: 0px;
+    }
+    .section-contact img{
+        width: 80px;
+        height: 80px;
+        margin-top: 40px;
+    }
+
+}
+/*blogs*/
+@media screen and (max-width: 500px){
+    /*Pagina de Inicio */
+    .social-icons{
+        width: 100%;
+        padding: 0 5px 0;
+        margin: 0;
+    }
+    .nav-logo{
+        display: flex;
+        align-items: center;
+    }
+    .nav-logo, .nav-link{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .nav-logo img{
+        width: 150px;
+    }
+
+    .main-container__text{
+        font-size: 25px;
+    }
+
+    /*Página de BLOGS */
+    .blogs-main{
+        padding: 0;
+    }
+    .news{
+        width: 100%;
+        padding: 10px;
+    }
+    .news-content{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+    .news-content img{
+        grid-row: 2;
+        width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .news-content .news-info{
+        grid-row: 3;
+        grid-column: 1;
+    }
+    .posts{
+        width: 100%;
+        padding: 10px;
+    }
+    .posts-blog{
+        max-width: 100%;
+    }
+
+    /*Página de Blog*/
+    .main-blog{
+        padding: 10px;
+    }
+    .main-blog__content img{
+        padding: 0;
+    }
+    .blog-content__article{
+        padding: 0;
+    }
+
+    .section-contact{
+        padding: 10px;
+        display: grid;
+    }
+    .contact{
+        display: grid;
+        margin: 0px;
+    }
+
+    /*Página de Perfil*/
+    .perfil {
+        display: grid;
+        grid-template-rows: auto;
+    }
+    .profile-info h2{
+        text-align: center;
+    }
+
+    .profile-img img{
+        width: 100%;
+    }
+
+    .projects-container{
+        padding: 10px;
+    }
+    .project{
+        padding: 0;
+        max-width: 100%;
+        text-align: center;
+    }
+    .contact{
+        margin-left: 100px;
+        
+    }
+    .section-contact img {
+        margin-left: 100px;
+        padding: 1px;
+
+        
+    }
+    .section-contact a {
+        margin-left: 110px;
+        
+    }
+}
+
